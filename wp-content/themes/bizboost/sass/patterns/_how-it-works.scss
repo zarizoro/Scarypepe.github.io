@@ -1,0 +1,32 @@
+/* --- Block How It Works
+-------------------------------------------------------- */
+.wp-block-how-it-work .wp-block-column h2+p {
+    margin-top: 7px;
+}
+
+.wp-block-how-it-work .wp-block-column .wp-block-image {
+    margin-bottom: var(--wp--custom--spacing--tiny);
+}
+
+.wp-block-how-it-work .wp-block-section-content {
+    padding: var(--wp--custom--spacing--wp-comment-vertical) 28px;
+    background-color: var(--wp--preset--color--background);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    height: 100%;
+}
+
+.wp-block-how-it-work .wp-block-section-content:hover,
+.wp-block-how-it-work .wp-block-section-content:focus {
+    background-color: var(--wp--preset--color--secondary);
+}
+
+.wp-block-how-it-work .wp-block-section-content:hover *,
+.wp-block-how-it-work .wp-block-section-content:focus * {
+    color: var(--wp--preset--color--color-light);
+}
+
+.wp-block-how-it-work .wp-block-section-content:hover .wp-block-image img,
+.wp-block-how-it-work .wp-block-section-content:focus .wp-block-image img {
+    filter: brightness(100);
+}

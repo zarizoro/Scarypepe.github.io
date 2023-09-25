@@ -1,0 +1,338 @@
+# <!=Copyright (C) 2023 Catch Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: BizBoost\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
+"POT-Creation-Date: 2023-04-20 08:48-0700\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Catch Themes <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/about.php:19
+msgid "BizBoost Pro"
+msgstr ""
+
+#: inc/about.php:20
+msgid ""
+"Get your hands on the WordPress Full Site Editing features. Start building "
+"your website with advanced block patterns and custom blocks! Get additional "
+"45+ Pre-Designed Block Patterns, 26 FSE Templates, and 22 Template Parts  "
+"that are highly customizable and fully responsive."
+msgstr ""
+
+#: inc/about.php:22
+msgid "Get BizBoost Pro"
+msgstr ""
+
+#: inc/about.php:24 inc/about.php:96
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:49 inc/block-patterns.php:18
+msgid "BizBoost"
+msgstr ""
+
+#: inc/about.php:68
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:76
+msgid "Getting Started with BizBoost!"
+msgstr ""
+
+#: inc/about.php:77
+msgid ""
+"Awesome! BizBoost has been installed and activated successfully. Now, you can "
+"start building your dream website with a wide range of highly-customizable "
+"block patterns, templates, and template parts available in this astounding "
+"theme."
+msgstr ""
+
+#: inc/about.php:78
+msgid "Theme instructions"
+msgstr ""
+
+#: inc/about.php:84
+msgid "More Features with BizBoost Pro Theme"
+msgstr ""
+
+#: inc/about.php:85
+msgid ""
+"To get more beautiful block patterns and templates, we recommend you upgrade "
+"to BizBoost Pro. With the pro theme installed, get more options, blocks, "
+"block patterns, templates and template parts."
+msgstr ""
+
+#: inc/about.php:86
+msgid "Buy BizBoost Pro"
+msgstr ""
+
+#: inc/about.php:95
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:97
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:98
+msgid "FSE FAQs"
+msgstr ""
+
+#: inc/about.php:99
+msgid "Change log"
+msgstr ""
+
+#: inc/about.php:100
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:107
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:108
+msgid ""
+"Loved BizBoost? Feel free to leave your feedback. Your opinion helps us reach "
+"more audiences!"
+msgstr ""
+
+#: inc/about.php:109
+msgid "Review"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:35
+msgid "Gap Zero"
+msgstr ""
+
+#: inc/icon-function.php:38
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:43
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: patterns/404-header.php:25 patterns/hidden-404.php:16
+msgid "404 Nothing Found"
+msgstr ""
+
+#: patterns/404-header.php:28
+msgid "Oops! That page can't be found"
+msgstr ""
+
+#: patterns/featured-content.php:14
+msgid "What We Do"
+msgstr ""
+
+#: patterns/featured-content.php:17
+msgid "Featured Content"
+msgstr ""
+
+#: patterns/featured-content.php:35
+msgid "Creative Lights"
+msgstr ""
+
+#: patterns/featured-content.php:38 patterns/featured-content.php:68
+#: patterns/featured-content.php:98
+msgid ""
+"Lorem ipsum dolor sit amet consecte tur adipiscing elit integer fermentum in "
+"orci lorem ipsum."
+msgstr ""
+
+#: patterns/featured-content.php:44 patterns/featured-content.php:74
+#: patterns/featured-content.php:104
+msgid "View More"
+msgstr ""
+
+#: patterns/featured-content.php:65
+msgid "Mobile Photography"
+msgstr ""
+
+#: patterns/featured-content.php:95
+msgid "Vintage Camera"
+msgstr ""
+
+#: patterns/footer-three-columns.php:24
+msgid "Newsletter Signup"
+msgstr ""
+
+#: patterns/footer-three-columns.php:41
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer-three-columns.php:53
+msgid "Customer Support"
+msgstr ""
+
+#: patterns/footer.php:15
+#, php-format
+msgctxt "1: Year, 2: Site Title with home URL, 3: Privacy Policy Link"
+msgid "Copyright &copy; %1$s %2$s"
+msgstr ""
+
+#: patterns/footer.php:16
+msgid "Y"
+msgstr ""
+
+#: patterns/header-media-no-image.php:16
+msgid "We"
+msgstr ""
+
+#: patterns/header-media-no-image.php:23
+msgid "build"
+msgstr ""
+
+#: patterns/header-media-no-image.php:30
+msgid "digital"
+msgstr ""
+
+#: patterns/header-media-no-image.php:37
+msgid "experiences."
+msgstr ""
+
+#: patterns/header-media-no-image.php:44
+msgid ""
+"We collaborate with smart and creative people to build awesome WordPress Full "
+"Site Editing Themes."
+msgstr ""
+
+#: patterns/header-media-no-image.php:49 patterns/hero-content.php:40
+msgid "Get Started"
+msgstr ""
+
+#: patterns/hero-content.php:24
+msgid "Our Services"
+msgstr ""
+
+#: patterns/hero-content.php:27
+msgid "We solve creative delusions efficiently"
+msgstr ""
+
+#: patterns/hero-content.php:33
+msgid ""
+"The display employs new techniques and technology to\n"
+"precisely follow the curves of the design, all the way to the elegantly "
+"rounded corners."
+msgstr ""
+
+#: patterns/hidden-404.php:19
+msgid "Oops! That page can't be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/hidden-blog.php:12
+msgid "Recent Blog"
+msgstr ""
+
+#: patterns/hidden-search.php:12
+msgid "Search"
+msgstr ""
+
+#: patterns/products-recent.php:14
+msgid "Recent Products"
+msgstr ""
+
+#: patterns/promotional-contact.php:21
+msgid "Promotional Contact"
+msgstr ""
+
+#: patterns/promotional-contact.php:24
+msgid "Ready to work together?"
+msgstr ""
+
+#: patterns/promotional-contact.php:33
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/recent-blog-posts.php:14
+msgid "Recent Blog Posts"
+msgstr ""
+
+#: patterns/sidebar-products.php:14
+msgid "Search Products"
+msgstr ""
+
+#: patterns/sidebar-products.php:24 patterns/sidebar.php:27
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar-products.php:34
+msgid "Filter by price"
+msgstr ""
+
+#: patterns/sidebar-products.php:50
+msgid "Filter by size"
+msgstr ""
+
+#: patterns/sidebar-products.php:66
+msgid "Filter by Color"
+msgstr ""
+
+#: patterns/sidebar.php:20
+msgid ""
+"Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maecenas odio "
+"lacus, dignissim sollicitudin finibus commodo, rhoncus et ante."
+msgstr ""
+
+#: patterns/sidebar.php:35
+msgid "Recent Post"
+msgstr ""
+
+#: patterns/sidebar.php:43
+msgid "Tags"
+msgstr ""
+
+#: patterns/stats.php:19
+msgid "95"
+msgstr ""
+
+#: patterns/stats.php:23
+msgid "Projects Completed"
+msgstr ""
+
+#: patterns/stats.php:35
+msgid "2310"
+msgstr ""
+
+#: patterns/stats.php:39
+msgid "Happy Clients"
+msgstr ""
+
+#: patterns/stats.php:51
+msgid "215"
+msgstr ""
+
+#: patterns/stats.php:55
+msgid "Hours Spents"
+msgstr ""
+
+#: patterns/stats.php:67
+msgid "479"
+msgstr ""
+
+#: patterns/stats.php:71
+msgid "Members"
+msgstr ""

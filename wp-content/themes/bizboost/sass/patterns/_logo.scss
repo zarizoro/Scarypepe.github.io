@@ -1,0 +1,12 @@
+/* --- Block Logo
+-------------------------------------------------------- */
+
+.wp-block-logo .wp-block-column .wp-block-image {
+    text-align: center;
+    border: 1px solid var(--wp--preset--color--border-color);
+    padding: 28px;
+}
+
+.wp-block-logo .wp-block-group-heading+div {
+    margin-top: var(--wp--custom--spacing--wp-comment-horizontal);
+}

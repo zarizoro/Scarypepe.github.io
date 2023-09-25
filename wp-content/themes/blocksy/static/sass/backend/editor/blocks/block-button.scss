@@ -1,0 +1,54 @@
+.wpforms-submit,
+.wp-element-button,
+.wp-block-button__link {
+	display: inline-flex;
+	align-items: center;
+	padding: var(--button-padding);
+	min-height: var(--buttonMinHeight);
+	border-radius: var(--buttonBorderRadius);
+	border: var(--button-border);
+	transition: color 0.2s ease, 
+				border-color 0.2s ease,
+				background-color 0.2s ease;
+
+	// alignment
+	&.has-text-align-center {
+		justify-content: center;
+	}
+
+	&.has-text-align-left {
+		justify-content: flex-start;
+	}
+	
+	&.has-text-align-right {
+		justify-content: flex-end;
+	}
+}
+
+// filled button
+.wpforms-submit,
+.wp-element-button,
+.wp-block-button__link {
+	color: var(--buttonTextInitialColor);
+	background-color: var(--buttonInitialColor);
+
+	&:hover {
+		color: var(--buttonTextHoverColor);
+		background-color: var(--buttonHoverColor);
+		border-color: var(--button-border-hover-color);
+	}
+}
+
+// outlined button
+.wp-block-button.is-style-outline .wp-element-button,
+.wp-block-button.is-style-outline .wp-block-button__link {
+	padding: var(--button-padding);
+	color: var(--buttonInitialColor);
+	border-color: var(--buttonInitialColor);
+
+	&:hover {
+		color: var(--buttonTextHoverColor);
+		border-color: var(--buttonHoverColor);
+		background-color: var(--buttonHoverColor);
+	}
+}

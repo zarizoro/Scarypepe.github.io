@@ -1,0 +1,59 @@
+/* --- Block Event
+-------------------------------------------------------- */
+.wp-block-events .event-row-head {
+    border-bottom: 2px solid var(--wp--preset--color--foreground);
+    padding-bottom: 14px;
+}
+
+.wp-block-events .event-row-head .event-head > h6 {
+    font-size: var(--wp--preset--font-size--small);
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--wp--preset--color--body-text);
+    opacity: 0.6;
+}
+
+.wp-block-events .event-row {
+    align-items: flex-start;
+    border-bottom: 1px solid var(--wp--preset--color--border-color);
+    padding: var(--wp--custom--spacing--wp-comment-vertical) 0;
+    margin-top: 0;
+}
+
+.wp-block-events {
+    .event-details {
+        a {
+            border: 1px solid var(--wp--preset--color--border-color);
+            border-radius: 50%;
+            padding: 14px;
+            overflow: hidden;
+            &:hover {
+                background-color: var(--wp--preset--color--border-color);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 781px) {
+    .wp-block-events .event-row {
+        flex-direction: column;
+    }
+
+    .wp-block-events .event-row-head {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 782px) {
+    .wp-block-events {
+        .event-time,
+        .event-speaker,
+        .event-location,
+        .event-details {
+            width: 20%;
+        }
+        .event-schedule {
+            width: 40%;
+        }
+    }
+}

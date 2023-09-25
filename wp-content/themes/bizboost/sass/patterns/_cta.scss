@@ -1,0 +1,117 @@
+/* --- Block CTA
+-------------------------------------------------------- */
+
+.wp-block-cta .wp-block-button__link {
+    margin-top: 0;
+}
+
+.wp-block-cta-with-video .wp-block-group-heading,
+.wp-block-cta-just-video .wp-block-group-heading,
+.wp-block-cta .wp-block-group-heading {
+    border-left: 0;
+    padding-left: 0;
+}
+
+
+.wp-block-cta .wp-block-group-heading {
+    max-width: 590px;
+    margin: 0 auto;
+}
+
+/* --- Block Promotional Contact
+-------------------------------------------------------- */
+
+.wp-block-cta.wp-block-promotional-contact .wp-block-group-heading {
+    max-width: 630px;
+}
+
+/* --- Block CTA With Video
+-------------------------------------------------------- */
+
+.wp-block-cta-with-video.wp-block-cover,
+.wp-block-cta-just-video.wp-block-cover {
+    min-height: 220px;
+}
+
+.wp-block-cta-just-video .content .video-play svg {
+    display: none;
+}
+
+.wp-block-cta-just-video .content .video-play:before,
+.wp-block-cta-just-video .content .video-play:after {
+    content: "";
+    border: 1px solid var(--wp--preset--color--background);
+    position: absolute;
+    border-radius: 50%;
+    top: -7px;
+    right: -7px;
+    bottom: -7px;
+    left: -7px;
+    opacity: 0;
+}
+
+.wp-block-cta-just-video .content .video-play {
+    background: var(--wp--preset--color--background);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: relative;
+    text-indent: -9999px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.wp-block-cta-just-video .content .video-play span {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid var(--wp--preset--color--foreground);
+    border-bottom: 15px solid transparent;
+    margin-top: 0;
+    text-indent: -9999px;
+    padding: 0;
+}
+
+.wp-block-cta-just-video .content .video-play:before {
+    border: 1px solid transparent;
+}
+
+.wp-block-cta-just-video .content .video-play:before,
+.wp-block-cta-just-video .content .video-play:after {
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.wp-block-cta-just-video .content .video-play:hover {
+    background: var(--wp--preset--color--primary);
+}
+
+.wp-block-cta-just-video .content .video-play:hover span {
+    border-left-color: var(--wp--preset--color--color-light);
+}
+
+.wp-block-cta-just-video .content .video-play:hover::before,
+.wp-block-cta-just-video .content .video-play:focus::before,
+.wp-block-cta-just-video .content .video-play:hover::after,
+.wp-block-cta-just-video .content .video-play:focus::after {
+    border-radius: 100%;
+    border-color: var(--wp--preset--color--primary);
+    opacity: 1;
+    animation: 500ms linear fadeinHeaderTtext;
+}
+
+
+/* ---  Video Featured
+-------------------------------------------------------- */
+
+.wp-block-section.wp-block-video-featured {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.wp-block-video-featured video {
+    max-width: 100%;
+    max-height: 600px;
+}
+
+

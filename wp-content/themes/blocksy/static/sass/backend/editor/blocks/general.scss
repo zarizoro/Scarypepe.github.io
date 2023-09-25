@@ -1,0 +1,18 @@
+:root {
+
+	// conditions
+	--true: initial;
+	--false: ;
+
+	// page structure (boxed/normal)
+	box-sizing: border-box;
+	box-shadow: var(--has-boxed, var(--box-shadow));
+	max-width: var(--has-boxed, var(--block-max-width));
+	border: var(--has-boxed, var(--boxed-content-border));
+	padding: var(--has-boxed, var(--boxed-content-spacing));
+	border-radius: var(--has-boxed, var(--boxed-content-border-radius));
+
+	width: calc(100% - #{$sides_spacing * 2});
+	margin-inline: auto;
+	margin-block: var(--has-boxed, $sides_spacing);
+}

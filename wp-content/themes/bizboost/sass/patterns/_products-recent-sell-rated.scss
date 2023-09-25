@@ -1,0 +1,96 @@
+/* --- Products Recent
+-------------------------------------------------------- */
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product,
+.wc-block-grid__product.wc-block-grid__product {
+    text-align: center;
+}
+
+.woocommerce .products .star-rating,
+.wc-block-grid__product-rating,
+.wc-block-grid__product-rating .star-rating,
+.wc-block-components-product-rating__stars,
+.wc-block-grid__product-rating .wc-block-grid__product-rating__stars {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.wp-block-products .wc-block-grid__product:before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    right: 0;
+    bottom: 0;
+    top: -1px;
+    background-color: var(--wp--preset--color--background);
+    border: 1px solid var(--wp--preset--color--border-color);
+    width: 100%;
+    height: 100%;
+}
+
+.wp-block-section:nth-child(2n-1).wp-block-products .wc-block-grid__product:before {
+    border: none;
+    left: 0;
+    top: 0;
+}
+
+.wp-block-products .wc-block-grid__product.wc-block-grid__product {
+    margin-bottom: 0;
+}
+
+.wp-block-products .wc-block-grid__product {
+    position: relative;
+}
+
+.wp-block-products .wc-block-grid__products  {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.wp-block-products .wc-block-grid__product.wc-block-grid__product > *:not(.wc-block-grid__product-onsale) {
+    margin: 0;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.wp-block-products .wc-block-grid__product .wc-block-grid__product-title {
+    margin: 0;
+    padding: clamp(28px, 3.5vw, 49px) clamp(28px, 3.5vw, 49px) 0.5em clamp(28px, 3.5vw, 49px);
+}
+
+.wp-block-products .wc-block-grid__product .wc-block-grid__product-price {
+    padding: 0 clamp(28px, 3.5vw, 49px) 14px clamp(28px, 3.5vw, 49px);
+}
+
+.wp-block-products .wp-block-button.wc-block-components-product-button,
+.wp-block-products .wp-block-button.wc-block-grid__product-add-to-cart {
+    padding: 0 clamp(28px, 3.5vw, 49px) clamp(28px, 3.5vw, 49px) clamp(28px, 3.5vw, 49px);
+}
+
+.wp-block-products .wc-block-grid__product .wc-block-grid__product-image:not(.wc-block-components-product-image) {
+    margin-bottom: 0;
+}
+
+.wp-block-products .wc-block-grid__product .wc-block-grid__product-rating {
+    padding-bottom: 21px;
+}
+
+  @media (min-width: 481px) and (max-width: 600px) {
+        .wc-block-grid.has-4-columns .wc-block-grid__product:nth-child(2n+1) {
+            padding-right: 0;
+        }
+
+        .wc-block-grid.has-4-columns .wc-block-grid__product:nth-child(2n) {
+            padding-left: 0;
+        }
+    }
+
+/* --- Products On Sell
+-------------------------------------------------------- */
+
+
+
+/* --- Products On Top Rated
+-------------------------------------------------------- */

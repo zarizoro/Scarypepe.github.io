@@ -1,0 +1,40 @@
+/*
+Theme Name: BizBoost
+Theme URI: https://catchthemes.com/themes/bizboost
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: BizBoost is a free multipurpose corporate WordPress Block theme that comes with a dark and minimal design. The block-based theme is beautifully crafted for all kinds of businesses who want to promote their business online. This theme is ideal for building corporate, blog, portfolio, eCommerce, freelance, and many more websites. This outstanding corporate theme can adapt to any market niche and provides an intuitive interface. It comes with many amazing features that help your company to shine in the business field. BizBoost is a simple and clean yet feature-rich multipurpose block theme that provides a flexible framework for any website. Moreover, the theme comes with 12+ block patterns, 15 FSE Template, and 8 Template Parts that help you to build an amazing corporate site the way you want. Some of the block patterns are Featured Content, Footer with Three Columns, Footer, Header Has Nav Centered, Header Media No Image, Header, Hero Content, Recent Products, Promotional Contact, Recent Blog Posts, Stats, Sidebar Products, and many more. All of the block patterns, templates, and template parts in BizBoost adapt to all screen sizes and are fully responsive and highly customizable.
+Requires at least: 5.9
+Tested up to: 6.2
+Requires PHP: 5.6
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bizboost
+Tags: blog, portfolio, photography, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing,  threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+BizBoost is based on Catch FSE WordPress Theme, 2012-2023 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import 'sass/media-query';
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import 'sass/color';

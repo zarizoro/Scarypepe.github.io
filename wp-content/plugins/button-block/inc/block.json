@@ -1,0 +1,190 @@
+{
+	"apiVersion": "1",
+	"name": "btn/button",
+	"title": "Button",
+	"description": "Implement multi-functional button.",
+	"category": "widgets",
+	"keywords": [
+		"multi-functional button",
+		"download button",
+		"link button"
+	],
+	"textdomain": "button-block",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"text": {
+			"type": "string",
+			"default": "Button"
+		},
+		"actionType": {
+			"type": "string",
+			"default": "link"
+		},
+		"url": {
+			"type": "string",
+			"default": ""
+		},
+		"tooltip": {
+			"type": "string",
+			"default": ""
+		},
+		"tooltipPos": {
+			"type": "string",
+			"default": "top"
+		},
+		"target": {
+			"type": "string",
+			"default": "_self"
+		},
+		"attrs": {
+			"type": "object",
+			"default": {
+				"rel": "noreferrer",
+				"referrerpolicy": "no-referrer"
+			}
+		},
+		"hideOn": {
+			"type": "object",
+			"default": {
+				"desktop": false,
+				"tablet": false,
+				"mobile": false
+			}
+		},
+		"isDownload": {
+			"type": "boolean",
+			"default": false
+		},
+		"downloadFileName": {
+			"type": "string",
+			"default": ""
+		},
+		"isUpIcon": {
+			"type": "boolean",
+			"default": false
+		},
+		"icon": {
+			"type": "object",
+			"default": {
+				"class": "fa fa-paper-plane"
+			}
+		},
+		"upIcon": {
+			"type": "object",
+			"default": {
+				"id": null,
+				"url": "",
+				"alt": "",
+				"title": ""
+			}
+		},
+		"iconPos": {
+			"type": "string",
+			"default": "left"
+		},
+		"type": {
+			"type": "string",
+			"default": "flat"
+		},
+		"isFullWidth": {
+			"type": "boolean",
+			"default": false
+		},
+		"size": {
+			"type": "string",
+			"default": "medium"
+		},
+		"popup": {
+			"type": "object",
+			"default": {
+				"type": "image",
+				"content": "",
+				"caption": "",
+				"width": ""
+			}
+		},
+		"animationType": {
+			"type": "string",
+			"default": ""
+		},
+		"animationDuration": {
+			"type": "number",
+			"default": 0.4
+		},
+		"addID": {
+			"type": "string",
+			"default": ""
+		},
+		"addCSS": {
+			"type": "string",
+			"default": ""
+		},
+		"alignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"typography": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 16,
+					"tablet": 16,
+					"mobile": 16
+				},
+				"fontWeight": 600,
+				"textDecoration": "none"
+			}
+		},
+		"colors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#4527a4"
+			}
+		},
+		"hovColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#8344c5"
+			}
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"vertical": "12px",
+				"horizontal": "24px"
+			}
+		},
+		"border": {
+			"type": "object",
+			"default": {
+				"radius": "5px"
+			}
+		},
+		"shadow": {
+			"type": "array",
+			"default": []
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"editorScript": "file:../dist/editor.js"
+}

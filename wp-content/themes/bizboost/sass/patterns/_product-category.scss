@@ -1,0 +1,94 @@
+/* --- Product Category
+-------------------------------------------------------- */
+
+.wc-block-featured-category.has-background-dim .background-dim__overlay:before {
+    opacity: 0;
+}
+
+.wc-block-featured-category__wrapper,
+.wc-block-featured-category {
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.wc-block-featured-category .wc-block-featured-category__title {
+    position: relative;
+    background-color: transparent;
+    text-transform: capitalize;
+    font-size: var(--wp--preset--font-size--content-heading);
+    line-height: var(--wp--custom--typography--line-height--heading-two);
+    display: inline-block;
+    width: auto;
+    padding: 0 35px 21px;
+}
+
+.wc-block-featured-category .wc-block-featured-category__title:after {
+    content: "";
+    border-bottom: 3px solid var(--wp--preset--color--primary);
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    bottom: 7px;
+    transform: translateX(-50%);
+}
+
+.wc-block-featured-category .wp-block-button .wp-block-button__link:hover {
+    box-shadow: 0 0 1px var(--wp--preset--color--primary);
+}
+
+.wc-block-featured-category .wp-block-button .wp-block-button__link {
+    margin-top: 0;
+}
+
+.wc-block-featured-category .wc-block-featured-category__title {
+    transform: translateY(65px);
+    transition: all 0.5s ease-in-out;
+}
+
+.wc-block-featured-category:hover .wc-block-featured-category__title {
+    transform: translateY(0px);
+    animation: smoothScrollBack 0s backwards, fadein 1s;
+}
+
+.wc-block-featured-category .wc-block-featured-category__link {
+    transform: translateY(90px);
+    padding-bottom: 28px;
+    transition: 0.5s;
+}
+
+.wc-block-featured-category:hover .wc-block-featured-category__link {
+    animation: fadein 1s;
+    transform: translateY(0px);
+}
+
+
+.wc-block-featured-category:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(47, 47, 47, 0.1), rgba(47, 47, 47, 0.8));
+    z-index: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.components-placeholder.wc-block-featured-category:before {
+    content: none;
+}
+
+.wc-block-featured-category:hover::before {
+    opacity: 1;
+}
+.wc-block-featured-category .wc-block-featured-category__background-image {
+    transition: all 0.5s ease-in-out;
+}
+
+.wc-block-featured-category:hover .wc-block-featured-category__background-image {
+    transform: scale(1.05);
+}
+

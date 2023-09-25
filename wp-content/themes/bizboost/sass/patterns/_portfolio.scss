@@ -1,0 +1,33 @@
+/* --- Block Portfolio
+-------------------------------------------------------- */
+
+.my-masonry-grid_column > *:after,
+.my-masonry-grid_column > *:before {
+    content: "";
+    display: block;
+    height: 80px;
+    width: 3px;
+    position: absolute;
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+.my-masonry-grid_column > *:before {
+    top: 0;
+    left: 0;
+    transform: translate(80px, -80px);
+}
+
+.my-masonry-grid_column > *:after {
+    bottom: 0;
+    right: 0;
+    transform: translate(-80px, 80px);
+}
+
+.my-masonry-grid_column > *:hover::after {
+    transform: translate(0, 0);
+}
+
+.my-masonry-grid_column > *:hover::before {
+    transform: translate(0, 0);
+}

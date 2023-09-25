@@ -1,0 +1,169 @@
+/* --- Block featured Content
+-------------------------------------------------------- */
+.wp-block-feature-content .wp-block-image,
+.wp-block-team .wp-block-image {
+   overflow: hidden;
+}
+
+.wp-block-feature-content .wp-block-image img,
+.wp-block-team .wp-block-image img {
+    transition: all 0.5s ease-in-out;
+}
+
+.wp-block-feature-content .wp-block-post-group:hover .wp-block-image img {
+    opacity: 0.6;
+}
+
+.wp-block-feature-content .wp-block-post-group:hover .wp-block-image img,
+.wp-block-team .wp-block-post-group:hover .wp-block-image img {
+    transform: scale(1.1);
+}
+
+/* --- Block Services
+-------------------------------------------------------- */
+
+.wp-block-feature-content .wp-block-group-content .wp-block-post-group,
+.wp-block-services .wp-block-group-content .wp-block-post-group {
+    border: 2px solid var(--wp--preset--color--border-color);
+    padding: var(--wp--custom--spacing--testimonial-inner-gap);
+    position: relative;
+    overflow: hidden;
+}
+
+.wp-block-services .wp-block-group-content .wp-block-post-group:before {
+    content: "";
+    background-image: linear-gradient(to top, #1b3385, #25c5c9);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.5s ease-in-out;
+}
+
+.wp-block-services .wp-block-group-content .wp-block-post-group:hover:before {
+    border-color: transparent;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.5s ease-in-out;
+}
+
+.wp-block-services .wp-block-group-content .wp-block-post-group:hover {
+    border-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.wp-block-feature-content .wp-block-entry-content h2,
+.wp-block-services .wp-block-entry-content h2 {
+    margin-top: var(--wp--custom--spacing--extra-small);
+}
+
+.wp-block-feature-content .wp-block-button.is-style-outline .wp-block-button__link,
+.wp-block-team .wp-block-button.is-style-outline .wp-block-button__link,
+.wp-block-services .wp-block-button.is-style-outline .wp-block-button__link {
+    border: 0;
+    position: relative;
+    border-radius: 0;
+    padding: 0;
+    font-size: var(--wp--preset--font-size--medium);
+    font-weight: var(--wp--custom--typography--font-weight--semi-bold);
+}
+
+.wp-block-feature-content .wp-block-button.is-style-outline .wp-block-button__link:after,
+.wp-block-team .wp-block-button.is-style-outline .wp-block-button__link:after,
+.wp-block-services .wp-block-button.is-style-outline .wp-block-button__link:after {
+    content: "";
+    border-bottom: 2px solid var(--wp--preset--color--primary);
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -7px;
+    transition: all .5s ease;
+}
+
+.wp-block-feature-content .wp-block-button.is-style-outline .wp-block-button__link:hover::after,
+.wp-block-team .wp-block-button.is-style-outline .wp-block-button__link:hover::after,
+.wp-block-services .wp-block-button.is-style-outline .wp-block-button__link:hover::after {
+    width: 30%;
+}
+
+.wp-block-feature-content .is-style-outline>.wp-block-button__link:not(.has-background):hover,
+.wp-block-feature-content .wp-block-button__link.is-style-outline:not(.has-background):hover,
+.wp-block-team .is-style-outline>.wp-block-button__link:not(.has-background):hover,
+.wp-block-team .wp-block-button__link.is-style-outline:not(.has-background):hover,
+.wp-block-services .is-style-outline>.wp-block-button__link:not(.has-background):hover,
+.wp-block-services .wp-block-button__link.is-style-outline:not(.has-background):hover {
+    color: var(--wp--preset--color--primary);
+    background: transparent !important;
+}
+
+
+/* --- Block Hero Content
+-------------------------------------------------------- */
+
+.wp-block-hero-content.wp-block-section .wp-block-group-heading {
+    margin-bottom: 28px;
+}
+
+/* --- Block Team
+-------------------------------------------------------- */
+
+.wp-block-team .wp-block-post-group {
+    position: relative;
+    overflow: hidden;
+}
+
+.wp-block-team .wp-block-entry-content {
+    position: absolute;
+    bottom: 0;
+    padding: clamp(28px, 3.5vw, 42px);
+    width: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.wp-block-team .wp-block-post-group:hover::before {
+    opacity: 1;
+}
+
+.wp-block-team .wp-block-post-group::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(34, 146, 177, 0), rgba(34, 146, 177, 0.2));
+    z-index: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.wp-block-team .wp-block-entry-content > *:not(.wp-block-buttons) {
+    transform: translateY(48px);
+    transition: all 0.5s ease-in-out;
+}
+
+.wp-block-team .wp-block-post-group:hover .wp-block-entry-content > *:not(.wp-block-buttons) {
+    transform: translateY(0px);
+    animation: smoothScrollBack 0s backwards, fadein 1s;
+}
+
+.wp-block-team .wp-block-entry-content > .wp-block-buttons {
+    transform: translateY(120px);
+    transition: 0.5s;
+}
+
+.wp-block-team .wp-block-post-group:hover .wp-block-entry-content > .wp-block-buttons {
+    animation: fadein 1s;
+    transform: translateY(0px);
+}

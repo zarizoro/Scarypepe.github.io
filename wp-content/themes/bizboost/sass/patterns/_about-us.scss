@@ -1,0 +1,34 @@
+/* --- Block About Us
+-------------------------------------------------------- */
+
+
+/* --- Block About Us With Stats
+-------------------------------------------------------- */
+
+.about-stat-heading {
+    font-size: var(--wp--custom--typography--font-size--heading-two);
+    line-height: 1.13;
+}
+
+.wp-bloock-about-us-with-stats .wp-block-column>*+* {
+    margin-block-start: 14px;
+}
+
+/* --- Block Hero Content
+-------------------------------------------------------- */
+
+.wp-block-cover.wp-block-hero-content .wp-block-cover__image-background {
+    left: auto;
+    width: 42%;
+}
+
+@media screen and (max-width: 37.5em) {
+    .wp-block-cover.wp-block-hero-content {
+        flex-direction: column;
+    }
+
+    .wp-block-cover.wp-block-hero-content .wp-block-cover__image-background {
+        position: static;
+        width: 100%;
+    }
+}
